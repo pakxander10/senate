@@ -2,6 +2,13 @@
 
 A CS+SG project for the Undergraduate Senate at UNC Chapel Hill.
 
+## Contributors
+
+| Name        | Role            |
+| ----------- | --------------- |
+| Caleb Han   | Tech Lead       |
+| Mason Mines | Project Manager |
+
 ## About the Undergraduate Senate
 
 The Senate of the Undergraduate Student Body at the University of North Carolina at Chapel Hill consists of elected student Senators across diverse academic backgrounds, representing approximately 20,000 undergraduate students. These Senators work together with student organizations to address issues on and off campus.
@@ -15,6 +22,7 @@ The Senate of the Undergraduate Student Body at the University of North Carolina
 ## Tech Stack
 
 ### Backend
+
 - **Python 3.13**
 - **FastAPI 0.115**
 - **SQLAlchemy 2.0**
@@ -22,6 +30,7 @@ The Senate of the Undergraduate Student Body at the University of North Carolina
 - **pyodbc**
 
 ### Frontend
+
 - **Node.js 24 LTS**
 - **Next.js 15.5**
 - **React 19**
@@ -134,6 +143,7 @@ You can access the SQL Server Express instance using the **SQL Server** extensio
 Enter the connection string from the "Load from Connection String" button:
 
 **Connection String:**
+
 ```
 Server=db,1433;Database=senate;User Id=sa;Password=SenateDev2026!;TrustServerCertificate=True;
 ```
