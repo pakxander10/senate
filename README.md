@@ -4,6 +4,7 @@ A CS+SG project for the Undergraduate Senate at UNC Chapel Hill.
 
 ## Contributors
 
+<<<<<<< Updated upstream
 | Name          | Role            |
 | ------------- | --------------- |
 | Caleb Han     | Tech Lead       |
@@ -11,6 +12,13 @@ A CS+SG project for the Undergraduate Senate at UNC Chapel Hill.
 | Xander Pak    | Developer       |
 | Gabriel Great | Developer       |
 | Chris Kim     | Developer       |
+=======
+| Name        | Role            |
+| ----------- | --------------- |
+| Caleb Han   | Tech Lead       |
+| Mason Mines | Project Manager |
+| Xander Pak  | Developer       |
+>>>>>>> Stashed changes
 
 ## About the Undergraduate Senate
 
