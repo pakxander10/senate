@@ -10,6 +10,7 @@ A CS+SG project for the Undergraduate Senate at UNC Chapel Hill.
 | Mason Mines   | Project Manager |
 | Gabriel Great | Developer       |
 | Chris Kim     | Developer       |
+| Xander Pak    | Developer       |
 
 ## About the Undergraduate Senate
 
