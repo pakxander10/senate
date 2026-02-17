@@ -5,7 +5,7 @@ A CS+SG project for the Undergraduate Senate at UNC Chapel Hill.
 ## Contributors
 
 | Name            | Role            |
-| -------------   | --------------- |
+| --------------- | --------------- |
 | Caleb Han       | Tech Lead       |
 | Mason Mines     | Project Manager |
 | Xander Pak      | Developer       |
@@ -81,6 +81,12 @@ cp .env.local.example .env.local # duplicates the template and renames it to .en
 
 cd ../backend
 cp .env.example .env # duplicates the template and renames it to .env
+```
+
+Run pre-commit checks locally
+
+```bash
+pre-commit run --all-files # make sure to run this command before making any commits to ensure code quality and consistency
 ```
 
 Or you can do the actions manually. Then,
