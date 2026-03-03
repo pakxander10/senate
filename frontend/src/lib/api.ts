@@ -15,3 +15,13 @@ export async function fetchAPI(endpoint: string, options?: RequestInit) {
 
   return response.json();
 }
+
+export async function getNews(page: number = 1, limit: number = 10) {
+  try {
+    const data = await fetchAPI(`/news?page=${page}&limit=${limit}`);
+    return data;
+  } catch (error) {
+    console.error("Failed to fetch news, falling back to mock data", error);
+    throw error;
+  }
+}
