@@ -22,6 +22,8 @@ export async function getNews(page: number = 1, limit: number = 10) {
     return data;
   } catch (error) {
     console.error("Failed to fetch news, falling back to mock data", error);
-    throw error;
+    const { mockNews } = await import("@/lib/mock/news");
+    const start = (page - 1) * limit;
+    return mockNews.slice(start, start + limit);
   }
 }

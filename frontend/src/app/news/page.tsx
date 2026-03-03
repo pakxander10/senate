@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { getNews } from "@/lib/api";
-import { mockNews } from "@/lib/mock/news";
 import { format } from "date-fns";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,14 +12,7 @@ export default async function NewsPage({
   const resolvedSearchParams = await searchParams;
   const pageParam = resolvedSearchParams.page;
   const page = parseInt(Array.isArray(pageParam) ? pageParam[0] : pageParam || "1", 10);
-  let newsData;
-  try {
-    newsData = await getNews(page, 10);
-  } catch {
-    const start = (page - 1) * 10;
-    const end = start + 10;
-    newsData = mockNews.slice(start, end);
-  }
+  const newsData = await getNews(page, 10);
 
   return (
     <div className="container mx-auto p-4">
